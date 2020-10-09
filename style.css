@@ -1,0 +1,80 @@
+body {
+    margin: auto 0; 
+    background-color: #FFD6AA; 
+    font-family: 'Courgette', cursive;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+    padding-right: 15px;
+}
+
+.main-nav {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.texto {
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.pizza {
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 1000px){
+    .main-nav {
+        font-size: 1em;
+        padding: 0; 
+    }
+
+    .texto {
+        font-size: 1em
+    }
+}
+
+
+li {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.header {
+
+    display: flex;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center; 
+}
+
+a {
+
+    color: black;
+    text-decoration: none;
+}
+
+.yellow{
+    background: #F3AAAA; 
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
